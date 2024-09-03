@@ -1,5 +1,7 @@
 
-from yosafe_subpackage_2 import *
+from yosafe_subpackage_2.yosafe_subpackage_2_functions import *
+
+
 
 def test_yosafe_get_yosafe_subpackage_2():
     result = yosafe_get_yosafe_subpackage_2()
