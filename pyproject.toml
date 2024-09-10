@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "yosafe-subpackage-2"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["Yo581515 <581515@stud.hvl.no>"]
 readme = "README.md"
@@ -10,7 +10,6 @@ packages = [{include = "yosafe_subpackage_2", from = "src"}]
 python = "^3.12"
 pytest = "^8.3.2"
 requests = "^2.32.3"
-pydantic = "1.10.9"
 
 
 [build-system]
