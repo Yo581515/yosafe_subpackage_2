@@ -1,4 +1,5 @@
 from requests import get
+from yosafe_packages.yosafe_subpackage_1.yosafe_subpackage_1_functions import to_capitllal_letters
 
 
 def yosafe_get_yosafe_subpackage_2():
@@ -18,5 +19,8 @@ def yosafe_get_yosafe_subpackage_2():
 def yosafe_sub(a, b):
     return a - b
 
+
+def to_capitllal_letters_2(txt: str) -> str:
+    return to_capitllal_letters(txt)
 
 
